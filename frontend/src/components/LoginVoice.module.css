@@ -1,0 +1,57 @@
+/* src/components/LoginVoice.module.css */
+.status {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.status strong {
+  color: var(--text-primary);
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Base button style */
+.button {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Primary button (like "Discover More") */
+.buttonPrimary {
+  background-color: var(--accent-purple);
+  color: var(--text-primary);
+}
+.buttonPrimary:hover {
+  background-color: #7C3AED;
+}
+
+/* Secondary button */
+.buttonSecondary {
+  background-color: var(--border-dark);
+  color: var(--text-primary);
+}
+.buttonSecondary:hover {
+  background-color: #4B5563;
+}
+
+.button:disabled {
+  background-color: var(--border-dark);
+  color: var(--text-secondary);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.audioPlayer {
+  margin-top: 1.5rem;
+  width: 100%;
+}

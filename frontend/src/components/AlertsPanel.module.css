@@ -1,0 +1,26 @@
+/* src/components/AlertsPanel.module.css */
+.alertCard {
+  /* Overwrite card styles */
+  background-color: #311827; /* Dark red background */
+  border-color: #E11D48; /* Bright red border */
+}
+
+.alertTitle {
+  color: #F43F5E; /* Bright red title */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.alertList {
+  list-style: none;
+}
+
+.alertItem {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #581C37;
+  color: #F9FAFB;
+}
+.alertItem:last-child {
+  border: none;
+}

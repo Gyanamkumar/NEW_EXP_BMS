@@ -1,0 +1,21 @@
+/* src/pages/Home.module.css */
+.homeContainer {
+  display: grid;
+  /* Two equal columns */
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem; /* Space between components */
+}
+
+.mainTitle {
+  /* Span title across both columns */
+  grid-column: 1 / -1; 
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Space between alerts and feed */
+}
